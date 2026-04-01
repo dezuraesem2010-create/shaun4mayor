@@ -1,8 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
-  <div>
-    Hello world 🚀
-  </div>
+const root = document.getElementById("root");
+
+if (!root) {
+  throw new Error("Root element not found");
+}
+
+ReactDOM.createRoot(root).render(
+  <React.StrictMode>
+    <div>Hello world</div>
+  </React.StrictMode>
 );
