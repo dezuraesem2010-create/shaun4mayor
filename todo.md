@@ -1,0 +1,4 @@
+- [x] Dashboard card clicks show actual contact names and details, not just stats
+- [x] Add search and filter functionality to detail modals
+- [x] Implement batch progress tracking with visual indicators
+- [x] Create volunteer dashboard with batch view
