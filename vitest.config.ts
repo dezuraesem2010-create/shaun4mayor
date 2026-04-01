@@ -1,4 +1,4 @@
-import { defineConfig } from jsxLoc();
+import { defineConfig } from "vite";
 import path from "path";
 
 const templateRoot = path.resolve(import.meta.dirname);
