@@ -2,19 +2,10 @@
   "name": "shaun-ferguson-campaign",
   "version": "1.0.1",
   "type": "module",
-  "license": "MIT",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "build": "vite build"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^5.0.4",
-    "vite": "^7.3.1",
-    "typescript": "^5.9.3"
+    "vite": "^7.3.1"
   }
 }
